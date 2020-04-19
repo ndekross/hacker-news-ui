@@ -4,7 +4,8 @@
   "description": "Hacker News clone as a part of React learning curriculum",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --host 0.0.0.0"
+    "dev": "webpack-dev-server --host 0.0.0.0",
+    "build": "webpack"
   },
   "author": "Natanael de Kross <natanael@dekross.com> (https://github.com/ndekross/)",
   "license": "ISC",
