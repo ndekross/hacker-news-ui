@@ -2,7 +2,7 @@ const path = require("path")
 const HTMLWebpackPlugin = require("html-webpack-plugin")
 
 module.exports = {
-  mode: process.env.APP_MODE || "development",
+  mode: process.env.NODE_ENV === "production" ? "production" : "development",
   entry: ["babel-polyfill", path.resolve(__dirname, "src/index.js")],
   devServer: {
     historyApiFallback: true
@@ -36,7 +36,7 @@ module.exports = {
   },
   plugins: [
     new HTMLWebpackPlugin({
-      title: "Hacker News Clone",
+      title: "Hacker News",
       template: "src/index.html"
     })
   ],
