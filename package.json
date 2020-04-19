@@ -1,0 +1,42 @@
+{
+  "name": "hacker-news",
+  "version": "0.1.0",
+  "description": "Hacker News clone as a part of React learning curriculum",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --host 0.0.0.0"
+  },
+  "author": "Natanael de Kross <natanael@dekross.com> (https://github.com/ndekross/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "wepack-cli": "0.0.1-security"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "emotion": "^10.0.27",
+    "font-measure": "^1.2.2",
+    "hyphen": "^1.5.0",
+    "lodash": "^4.17.15",
+    "markdown-to-jsx": "^6.11.1",
+    "marked": "^0.8.2",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react-html-parser": "^2.0.2",
+    "react-icons": "^3.9.0",
+    "react-router-dom": "^5.1.2",
+    "smartquotes": "^2.3.1"
+  }
+}
