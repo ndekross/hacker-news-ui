@@ -2,7 +2,7 @@ const path = require("path")
 const HTMLWebpackPlugin = require("html-webpack-plugin")
 
 module.exports = {
-  mode: "development",
+  mode: process.env.APP_MODE || "development",
   entry: ["babel-polyfill", path.resolve(__dirname, "src/index.js")],
   devServer: {
     historyApiFallback: true
