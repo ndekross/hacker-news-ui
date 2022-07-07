@@ -33,7 +33,7 @@
     "lodash": "^4.17.15",
     "markdown-to-jsx": "^6.11.1",
     "marked": "^0.8.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "prop-types": "^15.7.2",
     "react-html-parser": "^2.0.2",
     "react-icons": "^3.9.0",
